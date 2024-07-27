@@ -1,0 +1,14 @@
+[Unit]
+Description=frpc server daemon
+Documentation=https://github.com/fatedier/frp
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/kali/python_scripts/test202.py
+Restart=always
+RuntimeMaxSec=600
+
+[Install]
+WantedBy=multi-user.target
+
+

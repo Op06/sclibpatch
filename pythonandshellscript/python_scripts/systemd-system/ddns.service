@@ -1,0 +1,12 @@
+[Unit]
+Description=frpc server daemon
+Documentation=https://github.com/fatedier/frp
+After=network-online.target
+
+[Service]
+ExecStart=/usr/bin/bash /home/kali/python_scripts/ddns.sh
+Restart=always
+RuntimeMaxSec=600
+
+[Install]
+WantedBy=multi-user.target
