@@ -1,0 +1,253 @@
+@font-face {
+  font-family: AR PL UKai CN;
+  src: url('http://192.168.122.53:9999/UKaiCN-01.ttf').format('truetype'));
+}
+ 
+ 
+.choseFont {
+  width: 80px;
+  height: 56px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  color: black;
+}
+
+.schResInfo {
+  height: 37px;
+  line-height: 37px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+    border-bottom-width: 1px;
+  font-size: 0;
+  padding-right: 0;
+  position: relative;
+  margin-bottom: 26px;
+}
+.libBookUl {
+border-left-style: solid;
+#border-left-width: 15em;
+}
+
+html, body {
+  color: black;
+  font: 12px/1.5 Microsoft YaHei,SimSun,Arial;
+}
+
+.rankLiIn {
+  padding: 10px 0;
+   
+  padding-left: 100px;
+ padding-right: 100px;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.searchInpIn {
+  font-size: 16px;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  color: #ff0404;
+  padding: 0 3px 0px;
+  background: aliceblue;
+}
+a:hover {
+ color:#004ee9d6;
+}
+.brCon {
+  margin-top: 6px;
+  position: relative;
+}
+
+.libBookLi {
+  #width: 0em;
+  padding: 12px 0 12px 10px;
+  overflow: hidden;
+}
+.libBookLi .libBookDet {
+  width: 73%;
+  margin-left: 27px;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 16px;
+}
+.bkHeadCon {
+  #margin-top: 6px;
+  #background-color: light-dark;
+  #border-block-color: aquamarine;
+  border-top-color: #3d5ddc36;
+  #box-shadow: 0.2em -0.1em 0.1rem 0.1rem rgba(255,0,0,1);
+  #border-style: outset;
+ border: 1
+  border-top-style: solid;
+}
+.libBookLi {
+  border-top: 0px dashed #ccc;
+  position: relative;
+  padding: 0;
+  overflow: initial;
+}
+
+.libBkTab tr:nth-child(2n) td {
+  background: #fff0;
+}
+.retrScreen {
+  font-size: 33px;
+  color: #fff;
+  line-height: 48px;
+}
+.rankInCon {
+  padding: 14px 12px;
+  box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.6);
+}
+
+.bkDetTabHead {
+  width: 797px;
+  height: 30px;
+  background: #f3f5fc00;
+  position: relative;
+  border: 1px solid #DCDCDC00;
+}
+.hasHover, .lock {
+  background: #f4f4f400;
+  #background: -webkit-linear-gradient(to left, #0083fe, #00fff0);
+  #background: linear-gradient(to left, #74baff, #fff);
+	transform: translateY(-0.5rem) scale(1.1);
+	# box-shadow: inset 1em 0em 0rem 0rem rgba(0,159,223,0.5);
+          transition: transform 0.17s ease-in-out;
+	#transition: transform 0.1s ease-in-out, box-shadow 0.24s;
+}
+.bkDetTabIn {
+  display: none;
+  padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+  max-height: 186px;
+  border: 1px solid #e3e3e300;
+  background: #f3f5fc00;
+  overflow-y: auto;
+}
+
+.thFollowHint, .curBookCls.thCurBookCls a, .thAcFilterTop, .thGtEqHint, .themeGfColor, .thMesTit, .thghFilterLineTit, .thClearHighArea, .thNavInCur a, .thNavInUl a:hover, .thCheckPopTit, .thCFormPrevBtn, .thRegSucLine, .thCurArreNum, .thRecBuyStatuFont, .thFontImp, .thActEqHint, .curDetTab a, .verNm, .cloHintFont {
+  color: #fff;
+}
+.acFilterTop {
+  height: 36px;
+  line-height: 36px;
+  background: #63ad54;
+  font-size: 23px;
+  padding-left: 12px;
+  border-bottom: 1px solid #0835bc;
+  position: relative;
+}
+.acFilterArea .libClsUl {
+  font-size: 15px;
+}
+.libClsDet {
+  width: 100%;
+  height: 31px;
+}
+.ztree * {
+  padding: 0;
+  margin: 0;
+    margin-right: 0px;
+  margin-right: 0px;
+  font-size: 15px;
+  font-family: sans-serif, Microsoft YaHei,Verdana, Arial, Helvetica, AppleGothic,;
+}
+
+.choseType {
+  font-size: 22px;
+  cursor: pointer;
+}
+.searchTypeUl li {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+body {
+  line-height: 24px;
+  font: 14px sans-serif,Microsoft YaHei;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: sans-serif,Microsoft YaHei;
+}
+
+.libBookDetNm {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.rankLiIn .libBookImg {
+    width: 108px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    float: none;
+}
+
+.ebkType {
+    font-size: 20px;
+    height: 25px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 1 10px;
+    color: #fff;
+    margin: 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.libBkDetTit {
+    font-size: 15px;
+    color: #fff;
+    padding: 0 4px;
+    margin-right: 8px;
+    height: 25px;
+    line-height: 22px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.libBkDetTit, .retrScreen {
+    background-color: #009fdf;
+}
+.color33{
+    font-size: 23px;
+    color: #004ee9d6;
+    font-family: "AR PL UKai CN",楷体,KaiTi,"simkai","Microsoft Yahei";
+}
+.libBkDetCon {
+  height: 32px;
+}
+
+
+.libBookDetIn {
+  font-size: 20px;
+  color: #000000;
+}
+.easyCon {
+  width: 100%;
+  height: 22px;
+  margin: 2px 0;
+  cursor: pointer;
+}
+}
